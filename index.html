@@ -1,0 +1,61 @@
+<html>
+<head>
+<title> LOAN PREDICTION HOME</title>
+<style>
+body{
+    background-image: url('https://cdn.hipwallpaper.com/i/50/14/xg6UXl.jpg');
+    background-color: "blue";
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    }
+p{
+    font-family:sans-serif;
+}
+</style>
+</head>
+<body>
+<center>
+<form action="http://127.0.0.1:5000/login" method="post">
+<center>
+<h1>Loan Status Prediction</h1>
+</center>
+<p><b>Enter the Current Loan Amount : </b></p>
+<p><input type=text name="cla"></p>
+<p><b>Enter the Term :</b></p>
+<label for = "Term"> </label>
+<select name="t">
+<option value="Short Term">Short Term</option>
+<option value="Long Term">Long Term</option>
+</select>
+<p><b>Enter the Credit Score:</b></p>
+<p><input type=text name="cr"></p>
+<p><b>Enter your Annual Salary:</b></p>
+<p><input type=text name="ann"></p>
+<p><b>Enter the Years in current job:</b></p>
+<p><input type=text name="year"></p>
+<p><b>Enter the House Ownership Type:</b></p>
+<label for="House Ownership"></label>
+<select name="h">
+<option value="HaveMortgage">Have Mortgage</option>
+<option value="Home Mortgage">Home Mortgage</option>
+<option value="Own Home">Own Home</option>
+<option value="Rent">Rent</option>
+</select>
+<p><b>Enter the Years Of Credit History:</b></p>
+<p><input type=text name="yoc"></p>
+<p><b>Enter the Number of Credit Problems:</b></P>
+<p><input type=text name="noc"></p>
+<p><b>Enter the Current Credit Balance:</b></p>
+<p><input type=text name="ccb"></p>
+<p><b>Enter the Maximum Open Credit:</b></p>
+<p><input type=text name="moc"></p>
+<p><b>Enter the number of Banknruptacies:</b></p>
+<p><input type=text name="bank"></p>
+<p><b>Enter the Tax Liens:</b></p>
+<p><input type=text name="tax"></p>
+<p><input type = "submit" value = "submit"/></p>
+</form>
+</center>
+</body>
+</html>
